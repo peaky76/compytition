@@ -43,7 +43,7 @@ class Ranking(dict):
         previous_rank = 0
         tied = 0
         for rank in sorted(ranking.values(), reverse=True):
-            current_rank = rank
+            current_rank = int(rank)
             if int(current_rank) == int(previous_rank):
                 tied += 1
             else:
@@ -51,6 +51,6 @@ class Ranking(dict):
                     message = "Ranks must be consecutive" if tied == 0 else "Ranks must account for ties"
                     raise ValueError(message)
                 tied = 0
-            previous_rank = current_rank
+            previous_rank = int(current_rank)
         
         super().__init__(ranking)
