@@ -1,4 +1,3 @@
-# python-poetry-template
+# compytition
 
-A template for python projects using poetry as package manager.
-Includes dependabot and basic ci with linting, typing and testing.
+A library for all sorts of ranking, rating and scoring classes and algorithms
