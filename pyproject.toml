@@ -7,6 +7,9 @@ license = "GPL-3.0-only"
 readme = "README.md"
 packages = [{ include = "compytition" }]
 
+[tool.mypy]
+exclude = "^docs/"
+
 [tool.poetry.dependencies]
 python = "^3.11"
 peak-utility = "^0.6.0"
