@@ -1,7 +1,6 @@
 import pytest
 
-from compytition.rank import Rank
-from compytition.rank_list import RankList
+from compytition import Rank, RankList
 
 
 def test_class_list_can_be_initialised_with_valid_tuple_of_ints():
