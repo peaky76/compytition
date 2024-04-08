@@ -9,8 +9,11 @@ def test_rank_can_be_initialised_with_int():
 def test_rank_can_be_initialised_with_str():
     assert Rank('1')
 
-def test_rank_can_be_initialised_with_equal_sign():
+def test_rank_can_be_initialised_with_equal_sign_after():
     assert Rank('1=')
+
+def test_rank_can_be_initialised_with_equal_sign_before():
+    assert Rank('=1')
 
 def test_rank_can_be_initialised_with_tied_keyword():
     assert Rank(1, tied=True)
