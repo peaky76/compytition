@@ -40,6 +40,6 @@ class Ranking(dict):
             If the ranks are not consecutive or do not account for ties.
         """
         ranking = {k: Rank(v) for k, v in ranking.items()}
-        RankList(ranking.values())
+        RankList(list(ranking.values()))
         
         super().__init__(ranking)
