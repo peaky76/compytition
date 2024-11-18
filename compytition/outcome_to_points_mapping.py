@@ -1,7 +1,7 @@
 from .outcome import Outcome
 
 
-class OutcomeToPointsMapping(dict):
+class OutcomeToPointsMapping(dict[Outcome, int]):
     """
     A class used to map outcomes to points.
 
