@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0 (2024-11-18)
+
+#### New Features
+
+* `OutcomeToPointsMapping` class
+* `Outcome` enum
+
+#### Tests
+
+* test for equal before pos in `Rank`
+
 ## 0.2.0 (2024-04-07)
 
 #### New Features
