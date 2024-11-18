@@ -6,3 +6,6 @@ class Outcome(Enum):
     LOSE = 2
     DRAW = 3
     
+    W = WIN
+    L = LOSE
+    D = DRAW
