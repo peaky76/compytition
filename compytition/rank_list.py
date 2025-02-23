@@ -1,5 +1,5 @@
 from collections import UserList
-from typing import Sequence
+from collections.abc import Sequence
 
 from .rank import Rank
 
